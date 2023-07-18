@@ -66,9 +66,10 @@
     padding-top: 36px;
   }
   .img-placeholder {
-    height: 240px;
-    width: 336px;
+    height: 128px;
+    width: 128px;
     padding-top: 18px;
+    flex-shrink: 0;
   }
   .btn-signup {
     color: white;
@@ -79,9 +80,92 @@
   }
   .info-title{
       font-size: 36px;
-      font-weight: bolder;
+      font-weight:900;
       color:#1f2937;
       padding-top: 24px;
       text-align: center;
   }
-  
+  .card__img{
+    height:180px;
+    width:240px;
+  }
+  .card__para{
+    text-align: center;
+  }
+  .cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:24px;
+  }
+  .card__para{
+    color:grey;
+  }
+  .quote{
+    background-color: #e5e7eb;
+    height:366px;
+  }
+  .quote__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:123px;
+  }
+  .quote__text{
+    font-size:36px;
+    font-style: italic;
+    font-weight: 100;
+    color:#1F2937;
+  }
+  .quote__end{
+    display: flex;
+    justify-content: end;
+    font-weight:bold;
+    font-size:24px;
+  }
+  .color-block{
+    height: 136px;
+    width: 724px;
+    background-color:#3882f6;
+    border-radius:8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:54px;
+  }
+  .color__block__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:64px;
+    padding-bottom:64px;
+    z-index:1;
+  }
+  .btn-signup2{
+    color:white;
+    z-index:500;
+    border:2px solid white;
+    cursor:pointer;
+    background-color:#3882f6;
+    border-radius: 6px;
+    height: 32px;
+    width:108px;
+  }
+  .block-text{
+    color:white;
+    font-size:20px;
+  }
+  .block-para{
+    font-size:16px;
+    color: rgb(192, 192, 192);
+  }
+  .footer{
+    background-color: #1F2937;
+    height:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-text{
+    color:white;
+  }
